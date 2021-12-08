@@ -9,8 +9,8 @@ const person = {
 };
 
 function removeObject(object, property) {
-    delete person.eyeColor;
-    return person
+    delete object[property];
+    return object;
 }
 console.log(removeObject(person, "eyeColor"));
 
