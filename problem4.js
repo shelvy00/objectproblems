@@ -4,7 +4,7 @@ const shoe = {
     model: "Jordan",
     year: 2005,
     color: "black",
-},
+};
 
 function checkItem(obj, item) {
   return obj.hasOwnProperty(item);

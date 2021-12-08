@@ -6,7 +6,7 @@ const shoe = {
     model: "Jordan",
     year: 2005,
     color: "black",
-},
+};
 
 function numOfItems(obj) {
     return Object.keys(obj).length
