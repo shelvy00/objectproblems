@@ -19,6 +19,6 @@ const people = [
     }
 ];
 
-people.forEach(function(nameList) {
-    console.log(nameList.firstName + " " + nameList.lastName);
-  });
+const fullName = people.forEach(function(nameList) {
+  console.log(nameList.firstName + " " + nameList.lastName);
+});
