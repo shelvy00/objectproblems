@@ -19,6 +19,20 @@ const people = [
     }
 ];
 
-const fullName = people.forEach(function(nameList) {
-  console.log(nameList.firstName + " " + nameList.lastName);
-});
+function getFullName(nameList) {
+  nameList.forEach(function(a) {
+    console.log(a.firstName + " " + a.lastName);
+ });
+}
+
+getFullName(people)
+
+//Option 2
+
+/*function getFullName() {
+    people.forEach(function(a) {
+     console.log(a.firstName + " " + a.lastName);
+   });
+}
+
+getFullName()*/
